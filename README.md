@@ -11,8 +11,9 @@ Simple Webapp that checkes your network status. Why I made this? Probably for fu
 ![Parv](https://badgen.net/badge/Creator/PARVASHWANI/red?icon=github)
 ## Demo (!LOL!)
 
-[Senpai Was Here](https://academicgit.github.io/amionline/))
+[Senpai Was Here](https://academicgit.github.io/amionline/)
 
+[Senpai V2](https://amionline.tk/)
 ## Authors
 
 - [@PARVASHWANI](https://www.github.com/parvashwani)
