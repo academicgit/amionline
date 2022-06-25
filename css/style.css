@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/*?Default properties*/
+* 
+{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0px;
+    height: 100%;
+}
+
+#menuBar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #232323;
+    padding: 0.2em;
+    height: 4em;
+    color: #fff;
+}
+
+#menuBar *
+{
+    margin: 0px 0.3em;
+    white-space: nowrap;
+}
+
+#testIntervalLabel {
+    margin-left: auto;
+}
+
+#testInterval
+{
+    border-radius: 0.6vw;
+}
+
+#main
+{
+    color: #fff;
+    height: 100%;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#main h1
+{
+    font-size: 16vmin
+}
+
+#main h2
+{
+    font-size: 6vmin;
+}
+
+#status
+{
+    margin: 0%;
+}
+
+#refreshButton
+{ 
+    background:none; border:none; 
+}
+
+footer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 1.5vh;
+    padding: 0vw 1vw;
+    background-color: #23232316;
+}
+
+#copyright
+{
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 360px) {
+    #pageTitle {
+        display: none;
+    }
+    #testIntervalLabel {
+        margin-right: auto;
+        margin-left: 3vw;
+    }
+    #madeWith {
+        display: none;
+    }
+    #copyright {
+        margin-left: auto;
+    }
+}

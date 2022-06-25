@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am I Online?</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/netstatus.js" async></script>
+</head>
+<body id="body">
+    <!-- navigation bar -->
+    <div id="menuBar">
+        <h3 id="pageTitle">Am I Online?</h3>
+        <label for="testInterval" id="testIntervalLabel">Test Interval</label>
+        <select name="testInterval" id="testInterval">
+            <option value="0">Never</option>
+            <option value="5000">5 seconds</option>
+            <option value="15000" selected>15 seconds</option>
+            <option value="30000">30 seconds</option>
+            <option value="60000">60 seconds</option>
+        </select>
+    </div>
+    <!-- status display -->
+    <button title="Click to test" id="main">
+        <h2>You are currently</h2>
+        <h1 id="status"></h1>
+    </button>
+    <!-- footer bar -->
+    <footer>
+        <p id="copyright">&copy; Copyright ParvAshwani 2022</p>
+        <p id="madeWith">Made with ❤️ in India</p>
+    </footer>
+</body>
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script> 
+</html>
